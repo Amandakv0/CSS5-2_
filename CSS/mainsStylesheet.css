@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #07081A;
+}
+.navBarMainFrame{
+    width: 100%;
+    margin-bottom: 65px;
+    border-bottom: 1px solid #261C51;
+    padding: 28px 200px 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.navBarLogoDiv{
+    display: flex;
+    align-items: center;
+}
+.navBarSecondText{
+    margin-bottom: 7px;
+}
+.logo{
+    margin-right: 12px;
+}
+.whiteText{
+    color: #FFF;
+    font-size: 16px;
+}
+.greenText{
+    color: #8CE900;
+    font-size: 16px;
+}
+.navBarSecondText{
+    display: flex;
+    gap: 16px;
+}
+
+.firstMainContainer{
+    gap: 140px;
+}
+.firstContainerWrapper{
+    margin-bottom: 65px;
+}
+.headerDiv{
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFF;
+}
+.secondContainer, .firstMainContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.secondContainer{
+    background-color: #242642;
+    padding: 40px 72px;
+    gap: 190px;
+}
+.ImgPlus{
+    width: 162px;
+    height: 60px;
+}
+.PlusDivs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.secondContainerP{
+    letter-spacing: 1.5px;
+    color: #C0C0C0;
+    font-size: 20px;
+}
+.secondContainerWrapper{
+    margin-bottom: 200px;
+}
+.footermainFrame{
+    padding-bottom: 65px;
+    display: flex;
+    align-items: center;
+    gap: 250px;
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.logo{
+    width: 32px;
+    height: 36px;
+}
+.cloudoText{
+    width: 55px;
+    height: 24px;
+}
+.footerLogoDiv, .firstFooterColumn, .secondFooterColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 260px;
+}
+.footerLogoText{
+    color: #C0C0C0;
+    font-size: 14px;
+}
+.firstFooterColumn{
+    width: 73px;
+}
+.secondFooterColumn{
+    width: 187px;
+}
