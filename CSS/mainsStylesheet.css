@@ -6,11 +6,16 @@
 body{
     background-color: #07081A;
 }
-.navBarMainFrame{
-    width: 100%;
+.navBarWrapper{
+    display: flex;
+    justify-content: center;
     margin-bottom: 65px;
     border-bottom: 1px solid #261C51;
     padding: 28px 200px 0px 200px;
+}
+.navBarMainFrame{
+    width: 100%;
+    max-width: 1040px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
